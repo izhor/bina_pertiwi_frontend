@@ -1,3 +1,14 @@
+# Bina Pertiwi Landing Page
+
+note: this is Landing page website for bina pertiwi
+
+## Technical Docs
+for a temporary data, you can use fake data generated can be found on src/fake_data/
+
+for assets, we can use public/assets to keep all photo (Logo, Image sample, slider image) inside
+
+----------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
