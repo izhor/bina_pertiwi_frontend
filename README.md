@@ -7,6 +7,8 @@ for a temporary data, you can use fake data generated can be found on src/fake_d
 
 for assets, we can use public/assets to keep all photo (Logo, Image sample, slider image) inside
 
+for reusable components, you can use src/components
+
 ----------------------------------------------------------------------------------
 
 # Getting Started with Create React App
