@@ -1,18 +1,48 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 .footer {
   background: #1b2552;
-  display: flex;
+  
   width: auto;
   padding: 3rem 112px;
-  flex-direction: column;
-  align-items: center;
+ 
   font-family: inter;
-  color: ;
+  color: var(--Neutral-800, #A5ACBA);
+  font-size: 14px;
 }
 
 .logo-footer {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
+}
+.footer-desc{
+    color: var(--Neutral-800, #A5ACBA);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.1px;
+}
+.input-footer {
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid var(--Gray-300, #2e3545);
+  background: var(--Gray-600, #2c3444);
+  color: var(--Neutral-800, #a5acba);
+  height: 40px;
+}
+.button-footer {
+    height: 40px;
+}
+.ant-input::placeholder {
+    color: var(--Neutral-800, #A5ACBA);
+}
+.ant-btn-primary {
+  background-color: #3f7c44;
+}
+.footer-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
 }
