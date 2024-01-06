@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 
-import { Select, Col, Row, Modal, Button } from "antd";
+import { Select, Col, Row, Modal, Button, Divider } from "antd";
 import { Link } from "react-router-dom";
 import { Logo } from "../../assets";
 
@@ -39,6 +39,10 @@ const HeaderComponent = () => {
               Masuk
             </Button>
           </Col>
+        </Row>
+        <Row>
+          <Divider/>
+          <p></p>
         </Row>
       </div>
     </>

@@ -1,4 +1,4 @@
-import { Button, Col, Form, Row, Space } from "antd";
+import { Button, Col, Divider, Form, Row, Space } from "antd";
 import React from "react";
 import "./style.css";
 import { LogoPutih } from "../../assets";
@@ -77,6 +77,10 @@ const FooterComponent = () => {
           <p>lorem gipsum</p>
           <Gap height={12}/>
           </Col>
+        </Row>
+        <Row>
+          <Divider/>
+          <p></p>
         </Row>
       </div>
     </>
