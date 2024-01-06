@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Inter;
+  src: url(../../assets/font/Inter-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  font-family: Inter;
+}
+
+.headerLayout {
+  padding: 1rem 112px;
+  display: flex;
+  background-color: white;
+}
+
+.LogoImage {
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.headerMenu {
+  display: flex;
+  gap: 4rem;
+  padding: 1.5rem 10rem 0 1.5rem;
+  font-weight: 600;
+}
+
+.headerMenu > a > p {
+  padding-top: 5px;
+  color: #3c486b;
+}
+
+.login_button {
+  margin-top: 20px;
+  border-radius: 29px;
+  background: #1b2552;
+  display: inline-flex;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
