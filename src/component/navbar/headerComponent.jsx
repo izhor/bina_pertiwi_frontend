@@ -18,16 +18,16 @@ const HeaderComponent = () => {
           </Col>
           <Col span={14} push={2} >
             <div className="headerMenu">
-              <Link to="/">
+              <Link className="link-item" to="/">
                 <p>Home</p>
               </Link>
-              <Link to="/homepagebantuan">
+              <Link className="link-item" to="/homepagebantuan">
                 <p>Produk</p>
               </Link>
-              <Link to="/aboutus">
+              <Link className="link-item" to="/aboutus">
                 <p>Tentang Kami</p>
               </Link>
-              <Link to="/">
+              <Link className="link-item" to="/">
               <p>Layanan & Dukungan</p>
               </Link>
              

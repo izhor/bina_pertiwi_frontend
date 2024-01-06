@@ -44,3 +44,7 @@
   gap: 10px;
   color: white;
 }
+
+.link-item:hover {
+    border-bottom: 3px solid #1b2552;
+}
