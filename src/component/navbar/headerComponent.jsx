@@ -34,7 +34,7 @@ const HeaderComponent = () => {
               
             </div>
           </Col>
-          <Col span={3}>
+          <Col span={2}>
             <Button className="login_button">
               Masuk
             </Button>

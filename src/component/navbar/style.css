@@ -24,7 +24,7 @@
 .headerMenu {
   display: flex;
   gap: 4rem;
-  padding: 1.5rem 10rem 0 1.5rem;
+  padding: 1.5rem 0px ;
   font-weight: 600;
 }
 
@@ -35,13 +35,14 @@
 
 .login_button {
   margin-top: 20px;
+  
   border-radius: 29px;
   background: #1b2552;
   display: inline-flex;
   padding: 10px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+ 
   color: white;
 }
 
