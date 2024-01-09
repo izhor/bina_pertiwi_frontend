@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  font-family: Inter;
+  background: var(--Neutral-Silver, #f5f7fa);
+}
+.hero {
+  height: 731px;
+  width: 100%;
+}
+.hero-img {
+  width: auto;
+  height: 731px;
+  background-image: url("../../assets/img/hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.kualitas {
+  color: white;
+  height: 108px;
+  background: var(--Primary-D_Blue, #1b2552);
+  font-size: 14px;
+  line-height: 24px; /* 171.429% */
+  padding: 0px 199px;
+}
+
+.produk {
+    margin-top: 32px;
+  padding: 0px 112px;
+}
+
+.produk-title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--Primary-D_Blue, #1b2552);
+  border-bottom: #1b2552 2px solid;
+}
+
+.show-all {
+  color: var(--Primary-M_Blue, #1372d5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

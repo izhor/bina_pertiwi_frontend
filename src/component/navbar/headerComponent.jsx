@@ -40,10 +40,7 @@ const HeaderComponent = () => {
             </Button>
           </Col>
         </Row>
-        <Row>
-          <Divider/>
-          <p></p>
-        </Row>
+        
       </div>
     </>
   );

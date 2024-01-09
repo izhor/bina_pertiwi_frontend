@@ -78,9 +78,9 @@ const FooterComponent = () => {
           <Gap height={12}/>
           </Col>
         </Row>
-        <Row>
+        <Row justify={"center"}>
           <Divider/>
-          <p></p>
+          <p>© 2023 Binapertiwi. All Rights Reserved</p>
         </Row>
       </div>
     </>
