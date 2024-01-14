@@ -3,6 +3,7 @@ body {
   font-family: Inter;
   background: var(--Neutral-Silver, #f5f7fa);
 }
+
 .hero {
   height: 731px;
   width: 100%;
@@ -42,4 +43,11 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+.produk-card {
+  margin: 0px;
+  margin-top: 32px;
+padding: 0px 108px;
+  
 }

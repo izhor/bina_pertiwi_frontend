@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Inter;
+  src: url(../../assets/font/Inter-Regular.ttf);
+}
+
+body {
+  font-size: 14px;
+  font-family: Inter;
+  margin: 0px;
+}
+.card-tag {
+  align-items: center;
+  justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    
+  border-radius: 5px;
+  width: 46px;
+  height: 26px;
+  display: block;
+}
+.ant-card-cover {
+  background-color: var(--Neutral-Silver, #f5f7fa);
+  width: 277px;
+  padding: 12px;
+}
+
+.card-title {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--Black, #112B3C);
+  
+}
+
+.card-desc {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--Black, #112B3C);
+  
+}
+
+.card {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+}
