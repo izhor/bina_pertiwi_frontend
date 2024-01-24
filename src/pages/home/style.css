@@ -26,7 +26,7 @@ body {
 }
 
 .produk {
-    margin-top: 32px;
+  margin-top: 32px;
   padding: 0px 112px;
 }
 
@@ -48,6 +48,5 @@ body {
 .produk-card {
   margin: 0px;
   margin-top: 32px;
-padding: 0px 108px;
-  
+  padding: 0px 108px;
 }

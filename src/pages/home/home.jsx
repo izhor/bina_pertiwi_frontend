@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import FooterComponent from "../../component/footer/footerComponent";
-import HeaderComponent from "../../component/navbar/headerComponent";
+import HeaderComponent from "../../component/header/headerComponent";
 import { Carousel, Col, Row } from "antd";
 import { HeroImg } from "../../assets";
 import { ArrowRightOutlined } from "@ant-design/icons";
@@ -11,7 +11,7 @@ import ProductCard from "../../component/productcard/productCard";
 const Home = () => {
   return (
     <>
-      <HeaderComponent />
+      <HeaderComponent/>
       <Row justify={"center"}>
         <div className="hero">
           <Carousel autoplay="true">
@@ -45,12 +45,21 @@ const Home = () => {
         </div>
       </Row>
 
-      <Row className="produk-card" justify={"space-between"} gutter={[25, 23]}>
+      <Row className="produk-card"  gutter={[37, 23]}>
         {DATA.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </Row>
-
+      <Row className="produk" align={"middle"} justify={"space-between"}>
+        <h2 className="produk-title">Kategori</h2>
+        <div className="show-all">
+          <a>Lihat Semua</a>
+          <ArrowRightOutlined />
+        </div>
+      </Row>
+          <Row>
+            
+          </Row>
       <FooterComponent />
     </>
   );
